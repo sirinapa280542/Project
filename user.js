@@ -21,7 +21,7 @@ function loadTable() {
                 trHTML += '<button type="button" class="btn btn-outline-danger" onclick="userDelete(' + object['id'] + ')">Del</button></td>';
                 trHTML += "</tr>";
             }
-            document.getElementById("mytable").innerHTML = trHTML;
+            document.getElementById("c").innerHTML = trHTML;
         }
     };
 }
