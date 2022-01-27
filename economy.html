@@ -1,0 +1,734 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>ระบบสารสนเทศชุมชน</title>
+
+
+    <!-- <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/sidebars/"> -->
+
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="./assets/bootstrap-5.1.3-dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+        
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="index.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--ส่วนหัว-->
+
+    <nav class="navbar topnavbar navbar-expand-lg navbar-fixed-top" style="background-color: #0D7377">
+        <div class="container-fluid">
+            <img src="./image/Lpru.gif" height="60">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" style="color: rgb(252, 252, 252)">ระบบสารสนเทศชุมชน</a>
+                    </li>
+                </ul>
+                <div class="logo"><img src="./image/user.png" width="30" height="30"></div>
+                <button class="btn btn-outline-light" onclick="logout()" type="submit">Logout</button>
+            </div>
+
+        </div>
+    </nav>
+
+
+
+    <!--Menu-->
+
+    <div class="left">
+        <div class="list-group list-group-flush border-bottom scrollarea">
+            <!--ส่วนที่1-->
+            <div class="d-flex1 flex-column flex-shrink-0 p-3" style="color:white">
+                <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto  text-decoration-none" style="color:white">
+                    <use xlink:href="index.html" />
+                    </svg>
+                    <span class="fs-3 fw-semibold">ส่วนที่ 1</span>
+                </a>
+                <a href="index.html" class="link-dark rounded text-decoration-none" style="color:white">ข้อมูลสมาชิกในครัวเรือนและการช่วยเหลือดูแล</a>
+                <hr>
+                <ul class="list-unstyled ps-0">
+                    <li class="mb-1">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small ">
+                            <li><a href="index.html#no1.1" class="link-dark rounded text-decoration-none" style="color:white">1.1 ข้อมูลทั่วไป</a></li>
+                            <li><a href="index.html#no1.2" class="link-dark rounded text-decoration-none" style="color:white">1.2 ข้อมูลการประกอบอาชีพและความต้องการได้รับการช่วยเหลือ/ดูแล</a></li>
+                            <li><a href="index.html#no1.3" class="link-dark rounded text-decoration-none" style="color:white">1.3 ภาวะเสี่ยงจากการทำงาน</a></li>
+                            <li><a href="index.html#no1.4" class="link-dark rounded text-decoration-none" style="color:white">1.4 ข้อมูลการเจ็บป่วยเรื้อรังหรือพิการ การดูแลรักษาเมื่อมีภาวะเจ็บป่วย ปัญหาและความต้องการในการดูแลรักษาสุขภาพ และ สภาวะการเจ็บป่วยในปัจจุบัน</a></li>
+                        </ul>
+                    </li>
+                    <!--ส่วนที่2-->
+                    <a href="economy.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                        <use xlink:href="economy.html" />
+                        </svg>
+                        <span class="fs-3 fw-semibold">ส่วนที่ 2</span>
+                    </a>
+                    <a href="economy.html" class="link-dark rounded text-decoration-none" style="color:white">เศรษฐกิจของครัวเรือน(ข้อมูลด้านเศรษฐกิจ)</a>
+                    <hr>
+                    <ul class="list-unstyled ps-0">
+                        <li class="mb-1">
+                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small ">
+                                <li><a href="economy.html" class="link-dark rounded text-decoration-none" style="color:white">2.1 วิถีการผลิต</a></li>
+                                <li><a href="economy.html#no2.2" class="link-dark rounded text-decoration-none" style="color:white">2.2 ทรัพย์สินและสิ่งอความสะดวกของครัวเรือน</a></li>
+                                <li><a href="economy.html#no2.3" class="link-dark rounded text-decoration-none" style="color:white">2.3 ภาระหนี้สินของครัวเรือน</a></li>
+                                <li><a href="economy.html#no2.4" class="link-dark rounded text-decoration-none" style="color:white">2.4 แหล่งเงินกู้ยืมของครัวเรือน</a></li>
+                                <li><a href="economy.html#no2.5" class="link-dark rounded text-decoration-none" style="color:white">2.5 การออมเงินของครัวเรือน</a></li>
+                                <li><a href="economy.html#no2.6" class="link-dark rounded text-decoration-none" style="color:white">2.6 การออมเงินของครัวเรือน</a></li>
+                            </ul>
+                        </li>
+                        <!--ส่วนที่3-->
+                        <a href="environment.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                            <use xlink:href="environment.html" />
+                            </svg>
+                            <span class="fs-3 fw-semibold">ส่วนที่ 3</span>
+                        </a>
+                        <a href="environment.html" class="link-dark rounded text-decoration-none" style="color:white">สิ่งแวดล้อมของครัวเรื่อน (ข้อมูลด้านสิ่งแวดล้อม)</a>
+                        <hr>
+                        <ul class="list-unstyled ps-0">
+                            <li class="mb-1">
+                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small ">
+                                    <li><a href="environment.html" class="link-dark rounded text-decoration-none" style="color:white">3.1 ปัญหาสิ่งแวดล้อมของครัวเรือน</a></li>
+                                    <li><a href="environment.html#no3.2" class="link-dark rounded text-decoration-none" style="color:white">3.2 การจัดการกับสิ่งแวดล้อมในครัวเรือน</a></li>
+                                    <li><a href="environment.html#no3.3" class="link-dark rounded text-decoration-none" style="color:white">3.3 การอนุรักษ์สิ่งแวดล้อม การอนุรักษ์พลังงานและการใช้พลังงานทดแทน</a></li>
+                                </ul>
+                            </li>
+                            <!--ส่วนที่4-->
+                            <a href="commune.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                                <use xlink:href="commune.html" />
+                                </svg>
+                                <span class="fs-3 fw-semibold">ส่วนที่ 4</span>
+                            </a>
+                            <a href="commune.html" class="link-dark rounded text-decoration-none" style="color:white">การสื่อสารของครัวเรือน (ข้อมูลด้านการสื่อสาร)</a>
+                            <hr>
+                            <!--ส่วนที่5-->
+                            <a href="commune.html#no5.1" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                                <use xlink:href="commune.html#no5.1" />
+                                </svg>
+                                <span class="fs-3 fw-semibold">ส่วนที่ 5</span>
+                            </a>
+                            <a href="commune.html#no5.1" class="link-dark rounded text-decoration-none" style="color:white">ความเกี่ยวข้องของครัวเรือนกับการเมืองการปกครอง</a>
+                            <hr>
+            </div>
+        </div>
+    </div>
+    <!-- END MENU -->
+    <main>
+
+        <div class=" body">
+            <div>
+                <form action="/action_page.php">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <a name="no2.1"></a>
+                            <div class=" fs-4">ส่วนที่ 2 เศรษฐกิจของครัวเรือน (ข้อมูลด้านเศรษฐกิจ)<br>
+                                <U>คำชี้แจง</U> : ให้กรอกข้อมูลตามแบบสอบถามให้ครบถ้วน <br><br> 2.1 วิถีการผลิต (ให้ตอบเฉพาะครัวเรือนที่ประกอบอาชีพซึ่งสามารถบอกถึงกระบวนการผลิตได้ เช่น ด้านเกษตรกรรม ด้านอุตสาหกรรมใน ครัวเรือน และด้านอื่นๆ เป็นต้น)
+                                <hr>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <label for="occupation"><u>อาชีพที่ทำรายได้สูงของครัวเรือน<br>ประเภทการผลิต (เลือกตอบเพียง 1 ข้อ)</u></label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">ทำนา</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                <label class="form-check-label" for="flexRadioDefault2">ทำไร่</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+                                <label class="form-check-label" for="flexRadioDefault3">ทำสวน</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4">
+                                <label class="form-check-label" for="flexRadioDefault4">เลี้ยงสัตว์</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault5">
+                                <label class="form-check-label" for="flexRadioDefault5">เพาะเลี้ยงสัตว์น้ำ</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault6">
+                                <label class="form-check-label" for="flexRadioDefault6">ประมง</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault7">
+                                <label class="form-check-label" for="flexRadioDefault7">อุตสาหกรรมในครัวเรือน</label>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <label for="period"><u>ช่วงเวลาในการผลิต (เลือกตอบเพียง 1 ข้อ)</u></label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">ทำเป็นประจำทุกวัน</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                <div class="form-group ">
+                                    <label class="form-check-label" for="flexRadioDefault2">ทำเป็นช่วงเวลา ระบุวงรอบ จำนวน</label>
+                                    <input type="number" id="number" placeholder="ระบุ" class="mytext" />
+                                    <label for="number">ครั้ง/ต่อปี</label>
+                                    <label>ระบุช่วงเดือนที่ผลิตในแต่ละรอบ</label>
+                                </div>
+                            </div>
+                            <label>ระหว่างเดือน</label><br>
+                            <select name="month" id="month" class="">
+                                <option value="specify"> ---กรุณาระบุ--- </option>
+                                <option value="January">มกราคม</option>
+                                <option value="February">กุมภาพันธ์</option>
+                                <option value="March">มีนาคม</option>
+                                <option value="April">เมษายน</option>
+                                <option value="May">พฤษภาคม</option>
+                                <option value="June">มิถุนายน</option>
+                                <option value="July">กรกฎาคม</option>
+                                <option value="August">สิงหาคม</option>
+                                <option value="September">กันยายน</option>
+                                <option value="October">ตุลาคม</option>
+                                <option value="November">พฤศจิกายน</option>
+                                <option value="December">ธันวาคม</option>
+                         </select>
+                            <label>ถึง</label>
+                            <select name="month" id="month" class="">
+                            <option value="specify"> ---กรุณาระบุ--- </option>
+                            <option value="January">มกราคม</option>
+                            <option value="February">กุมภาพันธ์</option>
+                            <option value="March">มีนาคม</option>
+                            <option value="April">เมษายน</option>
+                            <option value="May">พฤษภาคม</option>
+                            <option value="June">มิถุนายน</option>
+                            <option value="July">กรกฎาคม</option>
+                            <option value="August">สิงหาคม</option>
+                            <option value="September">กันยายน</option>
+                            <option value="October">ตุลาคม</option>
+                            <option value="November">พฤศจิกายน</option>
+                            <option value="December">ธันวาคม</option>
+                     </select>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="target"><u>เป้าหมายการผลิต (เลือกตอบเพียง1 ข้อ)</u></label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">เพื่อจำหน่าย</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                <label class="form-check-label" for="flexRadioDefault2">เพื่อใช้บริโภค/อุปโภค และจำหน่าย</label>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="target"><u>ต้นทุนในการผลิต (ตอบได้มากกว่า1ข้อ)</u></label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ค่าเช่าที่ดิน</label>
+                                <select name="incomeA" id="incomeA">
+                                    <option value="specify"> ---กรุณาระบุ--- </option>
+                                    <option value="">0-5,000</option>
+                                    <option value="">5,000-10,000</option>
+                                    <option value="">1,0000-2,0000</option>
+                                    <option value="">มากกว่า30,000</option>
+                                </select>
+                                <label for="number">บาท/ปี</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ค่าจ้างแรงงาน</label>
+                                <select name="incomeA" id="incomeA">
+                                    <option value="specify"> ---กรุณาระบุ--- </option>
+                                    <option value="">0-5,000</option>
+                                    <option value="">5,000-10,000</option>
+                                    <option value="">1,0000-2,0000</option>
+                                    <option value="">มากกว่า30,000</option>
+                                </select>
+                                <label for="number">บาท/ปี</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ค่าวัตถุดิบในการผลิต (เช่น เมล็ดพันธุ์ ต้นกล้า ค่าปุ๋ย ค่ายา ค่าอาหารสัตว์ วัตถุดิบ อื่นๆ)</label>
+                                <select name="incomeA" id="incomeA">
+                                    <option value="specify"> ---กรุณาระบุ--- </option>
+                                    <option value="">0-5,000</option>
+                                    <option value="">5,000-10,000</option>
+                                    <option value="">1,0000-2,0000</option>
+                                    <option value="">มากกว่า30,000</option>
+                                </select>
+                                <label for="number">บาท/ปี</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ค่าซื้อเครื่องมือ/เครื่องจักร/อุปกรณ์ในการผลิต</label>
+                                <select name="incomeA" id="incomeA">
+                                    <option value="specify"> ---กรุณาระบุ--- </option>
+                                    <option value="">0-5,000</option>
+                                    <option value="">5,000-10,000</option>
+                                    <option value="">1,0000-2,0000</option>
+                                    <option value="">มากกว่า30,000</option>
+                                </select>
+                                <label for="number">บาท/ปี</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ค่าน้ำมันเชื้อเพลิง</label>
+                                <select name="incomeA" id="incomeA">
+                                    <option value="specify"> ---กรุณาระบุ--- </option>
+                                    <option value="">0-5,000</option>
+                                    <option value="">5,000-10,000</option>
+                                    <option value="">1,0000-2,0000</option>
+                                    <option value="">มากกว่า30,000</option>
+                                </select>
+                                <label for="number">บาท/ปี</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ค่าไฟฟ้า</label>
+                                <select name="incomeA" id="incomeA">
+                                    <option value="specify"> ---กรุณาระบุ--- </option>
+                                    <option value="">0-5,000</option>
+                                    <option value="">5,000-10,000</option>
+                                    <option value="">1,0000-2,0000</option>
+                                    <option value="">มากกว่า30,000</option>
+                                </select>
+                                <label for="number">บาท/ปี</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ค่าน้ำ</label>
+                                <select name="incomeA" id="incomeA">
+                                    <option value="specify"> ---กรุณาระบุ--- </option>
+                                    <option value="">0-5,000</option>
+                                    <option value="">5,000-10,000</option>
+                                    <option value="">1,0000-2,0000</option>
+                                    <option value="">มากกว่า30,000</option>
+                                </select>
+                                <label for="number">บาท/ปี</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ค่าวัสดอุปกรณ์อื่นๆ</label>
+                                <select name="incomeA" id="incomeA">
+                                    <option value="specify"> ---กรุณาระบุ--- </option>
+                                    <option value="">0-5,000</option>
+                                    <option value="">5,000-10,000</option>
+                                    <option value="">1,0000-2,0000</option>
+                                    <option value="">มากกว่า30,000</option>
+                                </select>
+                                <label for="number">บาท/ปี</label>
+                            </div><br>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="target"><u>แหล่งเงินทุน (ตอบได้มากกว่า1ข้อ)</u></label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexRadioDefault1">ของตนเอง ยืมแบบไม่มีดอกเบี้ย เช่น ของพ่อ แม่ ญาติพี่น้อง</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexRadioDefault1">กู้ยืมทั้งหมด</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexRadioDefault1">กู้ยืมบางส่วน</label>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="production"><u>รายได้จากผลผลิต</u></label>
+                            <div class="form-check1">
+                                <select name="production" id="production">
+                                    <option value="specify"> ---กรุณาระบุ--- </option>
+                                    <option value="">0-5,000</option>
+                                    <option value="">5,000-10,000</option>
+                                    <option value="">1,0000-2,0000</option>
+                                    <option value="">มากกว่า30,000</option>
+                                </select>
+                                <label for="number">บาท/ปี</label>
+
+                            </div>
+                            <a name="no2.2"></a>
+                            <a name="no2.3"></a>
+                        </div>
+                        <div class="col-md-6">
+
+                            <div class=" fs-4">2.2 ทรัพย์สินและสิ่งอำนวยความสะดวกของครัวเรือน
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+
+                            <div class=" fs-4">2.3ภาระหนี้สินของครัวเรือน
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="target"><u>(ตอบได้มากกว่า1ข้อ)</u></label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <div class="form-group ">
+                                    <label class="form-check-label" for="flexRadioDefault2">บ้าน จำนวน</label>
+                                    <input type="number" id="number" placeholder="ระบุ" class="mytext" />
+                                    <label for="number">หลัง</label>
+                                    <label class="form-check-label" for="flexRadioDefault2">เนื้อที่</label>
+                                    <input type="number" id="number" placeholder="ระบุ" class="mytext" />
+                                    <label for="number">ไร่</label>
+                                    <input type="number" id="number" placeholder="ระบุ" class="mytext" />
+                                    <label class="form-check-label" for="flexRadioDefault2">งาน</label>
+                                    <input type="number" id="number" placeholder="ระบุ" class="mytext" />
+                                    <label class="form-check-label" for="flexRadioDefault2">ตารางวา</label>
+                                </div>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <div class="form-group ">
+                                    <label class="form-check-label" for="flexRadioDefault2">ที่ดินทำกิน</label>
+                                    <input type="number" id="number" placeholder="ระบุ" class="mytext" />
+                                    <label for="number">ไร่</label>
+                                    <input type="number" id="number" placeholder="ระบุ" class="mytext" />
+                                    <label class="form-check-label" for="flexRadioDefault2">งาน</label>
+                                    <input type="number" id="number" placeholder="ระบุ" class="mytext" />
+                                    <label class="form-check-label" for="flexRadioDefault2">ตารางวา</label>
+                                </div>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <div class="form-group ">
+                                    <label class="form-check-label" for="flexRadioDefault2">รถไถ</label>
+                                    <label for="number">จำนวน</label>
+                                    <input type="number" id="number" placeholder="ระบุ" class="mytext" />
+                                    <label for="number">คัน</label>
+                                </div>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <div class="form-group ">
+                                    <label class="form-check-label" for="flexRadioDefault2">รถเกี่ยวข้าว</label>
+                                    <label for="number">จำนวน</label>
+                                    <input type="number" id="number" placeholder="ระบุ" class="mytext" />
+                                    <label for="number">คัน</label>
+                                </div>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <div class="form-group ">
+                                    <label class="form-check-label" for="flexRadioDefault2">รถยนต์</label>
+                                    <label for="number">จำนวน</label>
+                                    <input type="number" id="number" placeholder="ระบุ" class="mytext" />
+                                    <label for="number">คัน</label>
+                                </div>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <div class="form-group ">
+                                    <label class="form-check-label" for="flexRadioDefault2">รถจักรยานยนต์</label>
+                                    <label for="number">จำนวน</label>
+                                    <input type="number" id="number" placeholder="ระบุ" class="mytext" />
+                                    <label for="number">คัน</label>
+                                </div>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <div class="form-group ">
+                                    <label class="form-check-label" for="flexRadioDefault2">รถอีแต๊ก/รถอีแต๋น</label>
+                                    <label for="number">จำนวน</label>
+                                    <input type="number" id="number" placeholder="ระบุ" class="mytext" />
+                                    <label for="number">คัน</label>
+                                </div>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <div class="form-group ">
+                                    <label class="form-check-label" for="flexRadioDefault2">เครื่องสูบน้ำ</label>
+                                    <label for="number">จำนวน</label>
+                                    <input type="number" id="number" placeholder="ระบุ" class="mytext" />
+                                    <label for="number">เครื่อง</label>
+                                </div>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <div class="form-group ">
+                                    <label class="form-check-label" for="flexRadioDefault2">อินเตอร์เน็ต</label>
+                                    <label for="number">จำนวน</label>
+                                    <input type="number" id="number" placeholder="ระบุ" class="mytext" />
+                                    <label for="number">จุด</label>
+                                </div>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <div class="form-group ">
+                                    <label class="form-check-label" for="flexRadioDefault2">ม้า</label>
+                                    <label for="number">จำนวน</label>
+                                    <input type="number" id="number" placeholder="ระบุ" class="mytext" />
+                                    <label for="number">ตัว</label>
+                                </div>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <div class="form-group ">
+                                    <label class="form-check-label" for="flexRadioDefault2">วัว</label>
+                                    <label for="number">จำนวน</label>
+                                    <input type="number" id="number" placeholder="ระบุ" class="mytext" />
+                                    <label for="number">ตัว</label>
+                                </div>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <div class="form-group ">
+                                    <label class="form-check-label" for="flexRadioDefault2">ควาย</label>
+                                    <label for="number">จำนวน</label>
+                                    <input type="number" id="number" placeholder="ระบุ" class="mytext" />
+                                    <label for="number">ตัว</label>
+                                </div><br>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">ไม่มีหนี้สิน</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                <label class="form-check-label" for="flexRadioDefault2">มีหนี้สิน</label>
+                                <input type="number" id="number" placeholder="--กรุณาระบุ--" class="mytext1" />
+                                <label for="number">บาท</label>
+                            </div>
+                            <label for="target"><u>ระบุสาเหตุภาระหนี้สินที่เกิดขึ้น (ตอบได้มากกว่า1ข้อ)</u></label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ทำการเกษตร</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">การศึกษาบุตร</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ซื้อยานพาหนะ</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ซื้อสิ่งอำนวยความสะดวก(เช่น เครื่องใช้ไฟฟ้า,โทรศัพท์มือถือ)</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ซื้ออสังหาริมทรัพย์/สร้างบ้าน/ซื้อที่ดินทำกิน</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ค่ารักษาพยาบาล</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ค่าใช้จ่ายส่วนตัว(อาหาร/เสื้อผ้า/รองเท้า/กระเป๋า)</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ลงทุนในการทำธุรกิจ</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">การเล่นหวยหรือการพนัน</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ส่งสมาชิกในครัวเรือนไปต่างประเทศ ระบุเหตุผล (เช่น ไปเรียน ไปทำงาน)</label>
+                            </div>
+                            <a name="no2.4"></a>
+                            <a name="no2.5"></a>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class=" fs-4">2.4 แหล่งเงินกู้ยืมของครัวเรือน
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class=" fs-4">2.5 การออมเงินของครัวเรือน
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">ไม่มี</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">มีแหล่งกู้ยืม</label>
+                            </div>
+                            <label for="target"><u>ระบุแหล่งเงินกู้ (ตอบได้มากกว่า1ข้อ)</u></label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ญาติพี่น้อง/เพื่อน</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ธกส.(ธนาคารเพื่อการเกษตร)</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">กองทุนเงินล้าน</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ธนาคารหมู่บ้าน</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">กลุ่มออมทรัพย์/กลุ่มสัจจะสะสมทรัพย์</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">เงินกู้นอกระบบ/พ่อค้า/นายทุน</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ธนาคารพาณิชย์ เช่น กรุงไทย,ไทยพาณิชย์ เป็นต้น</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ธนาคารออมสิน</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">บัตรเครดิต/บัตรแทนเงินสด</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">สหกรณ์ต่าง เช่น สหกรณ์ออมทรัพย์ สหกรณ์เครดิตยูเนียน</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">บัตรเครดิต/บัตรกดเงินสด</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ธอส.(ธนาคารสงเคราะห์)</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">เงินกู้ตามโครงการรัฐ เช่น กขคจ</label>
+                            </div><br>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">ไม่มีเงินออม</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">มีเงินออม จำนวน</label>
+                                <input type="number" id="number" placeholder="--กรุณาระบุ--" class="mytext1" />
+                                <label for="number">บาท</label>
+                            </div>
+                            <label for="target"><u>ระบุแหล่งเงินออม (ตอบได้มากกว่า1ข้อ)</u></label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ธกส.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ธนาคารพาณิชย์ เช่น กรุงไทย,ไทยพาณิชย์ เป็นต้น</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ธนาคารออมสิน</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">กองทุนเงินล้าน</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ธนาคารหมู่บ้าน/ชุมชน</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">กลุ่มออมทรัพย์/กลุ่มสัจจะสะสมทรัพย์</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">สหกรณ์การเกษตร</label>
+                            </div>
+                            <a name="no2.6"></a>
+                        </div>
+                        <div class="col-md-12">
+                            <!-- <a name="no1.1"></a> -->
+                            <div class=" fs-4">2.6 การออมของครัวเรือนในรูปแบบอื่น ๆ
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">ไม่มีการออมในรูปแบบอื่น</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">มีการออมในรูปแบบอื่นๆ</label>
+                            </div>
+                            <label for="target"><u>ระบุประเภทการออมในรูปแบบอื่นๆ (ตอบได้มากกว่า1 ข้อ)</u></label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ทองคำ เพชร เครื่องประดับ</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">สลากออมสิน/สลาก ธกส.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">พันธบัตรรัฐบาล</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">หุ้น</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ประกันชีวิต</label>
+                            </div>
+                        </div>
+
+                </form>
+                </div>
+            </div>
+            <div class="container">
+                <div class="d-flex justify-content-center">
+                    <div class="d-flex justify-content-between"><a href="index.html" class="previous">&laquo; กลับ</a>
+                        <a href="environment.html" class="next">ต่อไป&raquo;</a></div>
+                </div>
+            </div>
+
+    </main>
+
+    <script src="./assets/bootstrap-5.1.3-dist/js/bootstrap.min.js "></script>
+    <script src="./index.js "></script>
+
+
+</body>
+
+</html>

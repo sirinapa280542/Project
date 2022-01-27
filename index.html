@@ -1,0 +1,992 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>ระบบสารสนเทศชุมชน</title>
+
+
+    <!-- <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/sidebars/"> -->
+
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="./assets/bootstrap-5.1.3-dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+        
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="index.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--navbar-->
+
+    <nav class="navbar topnavbar navbar-expand-lg navbar-fixed-top" style="background-color: #0D7377">
+        <div class="container-fluid">
+            <img src="./image/Lpru.gif" height="60">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" style="color: rgb(252, 252, 252)">ระบบสารสนเทศชุมชน</a>
+                    </li>
+                </ul>
+                <div class="logo"><img src="./image/user.png" width="30" height="30"></div>
+                <button class="btn btn-outline-light" onclick="logout()" type="submit">Logout</button>
+            </div>
+
+        </div>
+    </nav>
+
+
+
+    <!--Menu-->
+
+    <div class="left">
+        <div class="list-group list-group-flush border-bottom scrollarea">
+            <!--no1-->
+            <div class="d-flex1 flex-column flex-shrink-0 p-3" style="color:white">
+                <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto  text-decoration-none" style="color:white">
+                    <use xlink:href="index.html" />
+                    </svg>
+                    <span class="fs-3 fw-semibold">ส่วนที่ 1</span>
+                </a>
+                <a href="index.html" class="link-dark rounded text-decoration-none" style="color:white">ข้อมูลสมาชิกในครัวเรือนและการช่วยเหลือดูแล</a>
+                <hr>
+                <ul class="list-unstyled ps-0">
+                    <li class="mb-1">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small ">
+                            <li><a href="index.html#no1.1" class="link-dark rounded text-decoration-none" style="color:white">1.1 ข้อมูลทั่วไป</a></li>
+                            <li><a href="index.html#no1.2" class="link-dark rounded text-decoration-none" style="color:white">1.2 ข้อมูลการประกอบอาชีพและความต้องการได้รับการช่วยเหลือ/ดูแล</a></li>
+                            <li><a href="index.html#no1.3" class="link-dark rounded text-decoration-none" style="color:white">1.3 ภาวะเสี่ยงจากการทำงาน</a></li>
+                            <li><a href="index.html#no1.4" class="link-dark rounded text-decoration-none" style="color:white">1.4 ข้อมูลการเจ็บป่วยเรื้อรังหรือพิการ การดูแลรักษาเมื่อมีภาวะเจ็บป่วย ปัญหาและความต้องการในการดูแลรักษาสุขภาพ และ สภาวะการเจ็บป่วยในปัจจุบัน</a></li>
+                        </ul>
+                    </li>
+                    <!--no2-->
+                    <a href="economy.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                        <use xlink:href="economy.html" />
+                        </svg>
+                        <span class="fs-3 fw-semibold">ส่วนที่ 2</span>
+                    </a>
+                    <a href="economy.html" class="link-dark rounded text-decoration-none" style="color:white">เศรษฐกิจของครัวเรือน(ข้อมูลด้านเศรษฐกิจ)</a>
+                    <hr>
+                    <ul class="list-unstyled ps-0">
+                        <li class="mb-1">
+                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small ">
+                                <li><a href="economy.html" class="link-dark rounded text-decoration-none" style="color:white">2.1 วิถีการผลิต</a></li>
+                                <li><a href="economy.html#no2.2" class="link-dark rounded text-decoration-none" style="color:white">2.2 ทรัพย์สินและสิ่งอความสะดวกของครัวเรือน</a></li>
+                                <li><a href="economy.html#no2.3" class="link-dark rounded text-decoration-none" style="color:white">2.3 ภาระหนี้สินของครัวเรือน</a></li>
+                                <li><a href="economy.html#no2.4" class="link-dark rounded text-decoration-none" style="color:white">2.4 แหล่งเงินกู้ยืมของครัวเรือน</a></li>
+                                <li><a href="economy.html#no2.5" class="link-dark rounded text-decoration-none" style="color:white">2.5 การออมเงินของครัวเรือน</a></li>
+                                <li><a href="economy.html#no2.6" class="link-dark rounded text-decoration-none" style="color:white">2.6 การออมเงินของครัวเรือน</a></li>
+                            </ul>
+                        </li>
+                        <!--no3-->
+                        <a href="environment.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                            <use xlink:href="#bootstrap" />
+                            </svg>
+                            <span class="fs-3 fw-semibold">ส่วนที่ 3</span>
+                        </a>
+                        <a href="environment.html" class="link-dark rounded text-decoration-none" style="color:white">สิ่งแวดล้อมของครัวเรื่อน (ข้อมูลด้านสิ่งแวดล้อม)</a>
+                        <hr>
+                        <ul class="list-unstyled ps-0">
+                            <li class="mb-1">
+                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small ">
+                                    <li><a href="environment.html" class="link-dark rounded text-decoration-none" style="color:white">3.1 ปัญหาสิ่งแวดล้อมของครัวเรือน</a></li>
+                                    <li><a href="environment.html#no3.2" class="link-dark rounded text-decoration-none" style="color:white">3.2 การจัดการกับสิ่งแวดล้อมในครัวเรือน</a></li>
+                                    <li><a href="environment.html#no3.3" class="link-dark rounded text-decoration-none" style="color:white">3.3 การอนุรักษ์สิ่งแวดล้อม การอนุรักษ์พลังงานและการใช้พลังงานทดแทน</a></li>
+                                </ul>
+                            </li>
+                            <!--no4-->
+                            <a href="commune.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                                <use xlink:href="commune.html" />
+                                </svg>
+                                <span class="fs-3 fw-semibold">ส่วนที่ 4</span>
+                            </a>
+                            <a href="commune.html" class="link-dark rounded text-decoration-none" style="color:white">การสื่อสารของครัวเรือน (ข้อมูลด้านการสื่อสาร)</a>
+                            <hr>
+                            <!--no5-->
+                            <a href="commune.html#no5.1" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                                <use xlink:href="commune.html#no5.1" />
+                                </svg>
+                                <span class="fs-3 fw-semibold">ส่วนที่ 5</span>
+                            </a>
+                            <a href="commune.html#no5.1" class="link-dark rounded text-decoration-none" style="color:white">ความเกี่ยวข้องของครัวเรือนกับการเมืองการปกครอง</a>
+                            <hr>
+            </div>
+        </div>
+    </div>
+    <!-- END MENU -->
+    <main>
+
+        <div class=" body">
+            <div>
+                <form action="/action_page.php">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <a name="no1.1"></a>
+                            <div class=" fs-4">ส่วนที่ 1 ข้อมูลสมาชิกในครัวเรือนและการช่วยเหลือ/ดูแล ( ข้อมูลด้านประชากรเศรษฐกิจ และการดูแลสุขภาพ )<br>
+                                <U>คำชี้แจง</U> : ให้กรอกข้อมูลตามแบบสอบถามให้ครบถ้วน <br><br>1.1 ข้อมูลทั่วไป
+                            </div>
+                        </div>
+                        <hr>
+
+                        <div class="col-md-3">
+                            <label for="namePrefix"> คำนำหน้าชื่อ </label>
+
+                            <select name="namePrefix" class="form-control" id="namePrefix">
+                              
+                              <option value="specify">---กรุณาระบุ---</option>
+                              <option value="boy">เด็กชาย</option>
+                              <option value="girl">เด็กหญิง</option>
+                              <option value="Mr">นาย</option>
+                              <option value="Mrs">นาง</option>
+                              <option value="Miss">นางสาว</option>
+                            </select>
+                        </div>
+
+                        <div class="col-md-3">
+                            <label for="fname">ชื่อ</label>
+                            <input type="text" id="fname" name="fname" class="form-control" placeholder="ชื่อ" />
+                        </div>
+
+                        <div class="col-md-3">
+                            <label for="lname">ชื่อ-สกุล</label>
+                            <input type="text" class="form-control" id="lname" name="lname" placeholder="นามสกุล" />
+                        </div>
+
+                        <div class="col-md-2">
+                            <label for="sex">เพศ:</label>
+
+                            <select name="sex" id="sex" class="form-control">
+                              <option value="specify"> ---กรุณาระบุ--- </option>
+                              <option value="man">ชาย</option>
+                              <option value="female">หญิง</option>
+                           </select>
+                        </div>
+                        <div class="col-md-1">
+                            <label for="lname">อายุ /ปี</label>
+                            <input type="text" class="form-control" id="lname" name="lname" placeholder="ปี" />
+                        </div>
+                        <div class="col-md-2">
+                            <label for="nationality">สัญชาติ</label>
+                            <select name="nationality" class="form-control" id="nationality">
+                            <option value="specify">---กรุณาระบุ---</option>
+                            <option value="thai">ไทย</option>
+                            <option value="china">จีน</option>
+                            <option value="vietnam">เวียดนาม</option>
+                            <option value="laos">ลาว</option>
+                            <option value="cambodia">กัมพูชา</option>
+                            <option value="myanmar">พม่า</option>
+                            <option value="malaysia">มาเลเชีย</option>
+                            <option value="singapore">สิงคโปร์</option>
+                            <option value="Nolity">ไร้สัญชาติ</option>
+
+                          </select>
+                        </div>
+
+                        <div class="col-md-2">
+                            <label for="religion">ศาสนา</label>
+                            <select name="religion" id="religion" class="form-control">
+                            <option value="specify"> ---กรุณาระบุ--- </option>
+                            <option value="buddhism">พุทธ</option>
+                            <option value="christianity">คริสต์</option>
+                            <option value="islam">อิสลาม</option>
+                         </select>
+                        </div>
+                        <div class="col-md-8">
+                        </div>
+                        <div class="col-md-12"><br>
+                            <label for="address"><u>ที่อยู่</u></label>
+                        </div>
+                        <div class="col-md-2">
+                            <label for="address">บ้านเลขที่</label>
+                            <input type="text" class="form-control" id="address" name="address" placeholder="บ้านเลขที่" />
+                        </div>
+                        <div class="col-md-1">
+                            <label for="moo">หมู่ที่</label>
+                            <input type="text" class="form-control" id="moo" name="moo" placeholder="หมู่ที่" />
+                        </div>
+                        <div class="col-md-3">
+                            <label for="subdistrict">ตำบล</label>
+                            <input type="text" readonly class="form-control" id="subdistrict" name="subdistrict" placeholder="ตำบล" />
+                        </div>
+                        <div class="col-md-3">
+                            <label for="district">อำเภอ</label>
+                            <input type="text" readonly class="form-control" id="district" name="district" placeholder="อำเภอ" />
+                        </div>
+                        <div class="col-md-3">
+                            <label for="province">จังหวัด</label>
+                            <input type="text" readonly class="form-control" id="province" name="province" placeholder="จังหวัด" />
+                        </div>
+                        <div class="col-md-3">
+                            <label for="phone">โทร</label>
+                            <input type="tel" class="form-control" id="phone" name="phone" placeholder="เบอร์โทรติดต่อ" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                        </div>
+                        <div class="col-md-2">
+                            <label for="statusSD">สถานภาพ</label>
+                            <select name="statusSD" id="statusSD" class="form-control">
+                                <option value="specify"> ---กรุณาระบุ--- </option>
+                                <option value="single">โสด</option>
+                                <option value="registered">สมรสจดทะเบียน</option>
+                                <option value="unregistered">สมรสไม่จดทะเบียน</option>
+                                <option value="widow">หม้าย</option>
+                                <option value="divorce">หย่า</option>
+                                <option value="separate">แยกกันอยู่</option>
+                         </select>
+                        </div>
+                        <div class="col-md-7">
+                        </div>
+                        <div class="col-md-6"><br>
+                            <label for="phone"><u>การศึกษา</u></label>
+                        </div>
+                        <div class="col-md-6"><br>
+                            <label for="phone"><u>การอ่านออกเขียนได้</u></label>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="statusSD">สถานนะ</label>
+                            <select name="statusSD" id="statusSD" class="form-control">
+                                <option value="specify"> ---กรุณาระบุ--- </option>
+                                <option value="nostudy"> ไม่ได้เรียน</option>
+                                <option value="studying">กำลังศึกษา</option>
+                                <option value="finish">จบการศึกษา</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="level">ระดับ</label>
+                            <select name="level" id="level" class="form-control">
+                                <option value="specify"> ---กรุณาระบุ--- </option>
+                                <option value="kindergarten">อนุบาล</option>
+                                <option value="middle">ประถมศึกษา</option>
+                                <option value="junio">ม.ต้น</option>
+                                <option value="senior">ม.ปลาย</option>
+                                <option value="vocational">ปวช</option>
+                                <option value="high">ปวส</option>
+                                <option value="diploma">อนุปริญญา</option>
+                                <option value="BD">ปริญญาตรี</option>
+                                <option value="postgraduate">สูงกว่าปริญญาตรี</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="read">อ่านได้</label>
+                            <select name="read" id="read" class="form-control">
+                                <option value="specify"> ---กรุณาระบุ--- </option>
+                                <option value="cannot">ไม่ได้</option>
+                                <option value="mod">พอได้</option>
+                                <option value="get">ได้</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <a name="no1.2"></a>
+                            <label for="write">เขียนได้</label>
+                            <select name="write" id="write" class="form-control">
+                                <option value="specify"> ---กรุณาระบุ--- </option>
+                                <option value="cannot">ไม่ได้</option>
+                                <option value="mod">พอได้</option>
+                                <option value="get">ได้</option>
+                            </select><br>
+                        </div>
+
+                        <div class=" fs-4">1.2 ข้อมูลการประกอบอาชีพและประเภทความต้องการได้รับการช่วยเหลือ/ดูแล
+                            <hr>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="main">อาชีพหลัก</label>
+                            <select name="main" id="main" class="form-control">
+                                <option value="specify"> ---กรุณาระบุ--- </option>
+                                <option value="cannot">ว่างงาน/ไม่มีงานทำ</option>
+                                <option value="M1">ทำนา</option>
+                                <option value="M2">ทำไร่</option>
+                                <option value="M3">ทำสวน</option>
+                                <option value="M4">เลี้ยงสัตว์</option>
+                                <option value="M5">เพาะเลี้ยงสัตว์น้ำ</option>
+                                <option value="M6">ทำประมง</option>
+                                <option value="M7">รับจ้างทั่วไป/บริการ</option>
+                                <option value="M8">ทำงานบ้าน</option>
+                                <option value="M9">กรรมกร</option>
+                                <option value="M10">ค้าขาย/ธุรกิจส่วนตัว</option>
+                                <option value="M11">อุตสาหกรรมในครัวเรือน</option>
+                                <option value="M12">รับราชการ</option>
+                                <option value="M13">รัฐวิสาหกิจ</option>
+                                <option value="M14">พนักงาน/ลูกจ้างเอกชน</option>
+                                <option value="M15">นักเรียน/นักศึกษา</option>
+                            </select>
+                        </div>
+                        <!--ตั้งตัวแปร-->
+                        <div class="col-md-3">
+                            <label for="incomeM">รายได้(โดยประมาณ)/ต่อปี</label>
+                            <select name="incomeM" id="incomeM" class="form-control">
+                                <option value="specify"> ---กรุณาระบุ--- </option>
+                                <option value="">0-5,000</option>
+                                <option value="">5,000-10,000</option>
+                                <option value="">1,0000-2,0000</option>
+                                <option value="">มากกว่า30,000</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="additiona">อาชีพเสริม</label>
+                            <select name="additiona" id="additiona" class="form-control">
+                                <option value="specify"> ---กรุณาระบุ--- </option>
+                                <option value="cannot">ไม่มี</option>
+                                <option value="a1">ทำนา</option>
+                                <option value="a2">ทำไร่</option>
+                                <option value="a3">ทำสวน</option>
+                                <option value="a4">เลี้ยงสัตว์</option>
+                                <option value="a5">เพาะเลี้ยงสัตว์น้ำ</option>
+                                <option value="a6">ทำประมง</option>
+                                <option value="a7">รับจ้างหรือบริการ</option>
+                                <option value="a8">ทำงานบ้าน</option>
+                                <option value="a9">กรรมกร (ก่อสร้าง แบกหาม อื่นๆ)</option>
+                                <option value="a10">ค้าขายหรือธุรกิจส่วนตัว</option>
+                                <option value="a11">อุตสาหกรรมในครัวเรือน</option>
+                            </select>
+                        </div>
+                        <!--ตั้งตัวแปร-->
+                        <div class="col-md-3">
+                            <label for="incomeA">รายได้(โดยประมาณ)/ต่อปี</label>
+                            <select name="incomeA" id="incomeA" class="form-control">
+                                <option value="specify"> ---กรุณาระบุ--- </option>
+                                <option value="">0-5,000</option>
+                                <option value="">5,000-10,000</option>
+                                <option value="">1,0000-2,0000</option>
+                                <option value="">มากกว่า30,000</option>
+                            </select>
+                        </div>
+                        <!--ตั้งตัวแปร-->
+                        <div class="col-md-5">
+                            <label for="working">พื้นที่การทำงาน</label>
+                            <select name="working" id="working" class="form-control">
+                                <option value="specify"> ---กรุณาระบุ--- </option>
+                                <option value="">ว่างงาน</option>
+                                <option value="">ทำงานในพื้นที่ตำบล</option>
+                                <option value="">ทำงานนอกพื้นที่ตำบลในลักษณะเช้าไปเย็นกลับ</option>
+                                <option value="">ทำงานนอกพื้นที่ตำบลบางช่วงเวลาหรือตามฤดูกาล</option>
+                                <option value="">ทำงานอยู่ต่างตำบล</option>
+                                <option value="">ทำงานอยู่ต่างอำเภอ</option>
+                                <option value="">ทำงานอยู่ต่างจังหวัด</option>
+                                <option value="">ทำงานอยู่ต่างประเทศ</option>
+                            </select>
+                        </div>
+                        <!--ตั้งตัวแปร-->
+                        <div class="col-md-7">
+                            <a name="no1.3"></a>
+                            <label for="help">ความต้องการความช่วยเหลือ</label>
+                            <select name="help" id="help" class="form-control">
+                                <option value="specify"> ---กรุณาระบุ--- </option>
+                                <option value="">ไม่มี</option>
+                                <option value="">เด็กอายุต่ำกว่า 5 ปี</option>
+                                <option value="">ผู้สูงอายุ</option>
+                                <option value="">ผู้พิการทางกาย/เคลื่อนไหว</option>
+                                <option value="">ผู้พิการทางการมองเห็น</option>
+                                <option value="">ผู้พิการทางการได้ยิน/สื่อความหมาย</option>
+                                <option value="">ผู้พิการทางสติปัญญา/การเรียนรู้</option>
+                                <option value="">ผู้พิการทางจิต/พฤติกรรม</option>
+                                <option value="">ผู้ติดยาเสพติด</option>
+                                <option value="">ผู้ป่วยเอดส์/ผู้ติดเชื้อ HIV</option>
+                                <option value="">ผู้ป่วยเรื้อรัง เบาหวาน/ความดัน/หัวใจ</option>
+                                <option value="">หญิงตั้งครรภ์</option>
+                                <option value="">ผู้ด้อยโอกาส(รายได้น้อย ต่ำกว่า 38,500 บาท)</option>
+                                <option value="">ผู้ป่วยระยะสุดท้าย(มะเร็ง,ไต,ตามค่าวินิจฉัยของแพทย์)</option>
+                            </select><br>
+                        </div>
+
+                        <div class=" fs-4">1.3 ภาวเสี่ยงจากการทำงาน
+                            <hr>
+                        </div>
+                        <!--ตั้งตัวแปร-->
+                        <div class="col-md-6">
+                            <label for="help"><U>พฤติกรรมเสี่ยง(ตอบได้มากกว่า1ข้อ)</U></label>
+                            <div class="form-check">
+                                <input class="form-check-input disble_group" data-group='group1' type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ไม่มี</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input group1" type="checkbox" value="" id="flexCheckDefault2">
+                                <label class="form-check-label" for="flexCheckDefault2"> ไม่ระบุ</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input group1" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ดื่มสุราเป็นประจำ(มีการดื่มเหล้า แชมเปญ น้ำตาลเมา กระแช่ สาโท พื้นบ้าน ในทุกสัปดาห์)</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input group1" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">สูบบุหรี่เป็นประจำ(มีการสูบบุหรี่ทุกวัน)</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input group1" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">นั่งๆ นอนๆ ไม่ค่อยได้ทำงาน</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input group1" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ไม่ได้ออกกำลังกาย</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input group1" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">มีความเครียดกังวลใจจนนอนไม่หลับ</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input group1" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ทำงานหนัก พักผ่อนน้อย</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input group1" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">กินอาหารปริมาณมาก กินจุ กินจุบจิบ</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input group1" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">กินอาหารรสจัด (หวาน มัน เค็ม เผ็ด)เป็นประจำทุกวัน</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input group1" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">กินอาหารสุก ๆ ดิบ ๆ</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input group1" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ดื่มเครื่องดื่มชูกำลังประจำ (ทุกครั้งก่อน หรือหลังจากการทำงาน)</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input group1" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ขับรถเร็ว ประมาท</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input group1" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">มีเพศสัมพันธ์ที่ไม่ปลอดภัย</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input group1" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">การใช้สารเสพติด (สารระเหย กัญชา ยาบ้า เฮโรอีน)</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input group1" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">การใช้ยาชุด ยาแก้ปวด ยาลูกกลอน เป็นประจำ</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input group1" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ขับขี่รถจักรยานยนต์โดยไม่สวมหมวกนิรภัย</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input group1" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ขับขี่รถยนต์โดยไม่คาดเข็มขัดนิรภัย</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input group1" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ไม่ได้ตรวจสุภาพ หรือ การคัดกรองโรค เป็นประจำ</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input group1" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">อยู่ในที่ที่มีผู้สูบบุรี่</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input group1" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">คนในครอบครัวสูบบุหรี่ ดื่มสุรา</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input group1" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ไม่ได้ตรวจสุภาพ หรือ การคัดกรองโรค เป็นประจำ</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input group1" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ป่วยเป็นโรคเรื้อรัง</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="help"><U>ภาวะเสี่ยงจากการทำงาน(ตอบได้มากกว่า1ข้อ)</U></label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ไม่มี</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ไม่ระบุ</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ใช้สารเคมีในการเกษตรโดยป้องกันตนเองไม่เหมาะสม</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ทำงานในบริเวณที่มีการสูดดมสารเคมีสารระเหยที่เป็นอันตรายต่อสุภาพ เช่น ช่างเฟอร์นิเจอร์ ช่างทาสี ช่างทำสีรถยนต์</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ทำงานในบริเวณที่มีเสียงดัง เช่น โรงงานอุตสาหกรรม</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ทำงานในบริเวณที่มีผง ฝุ่นละออง ควัน เช่น ฝุ่น นุ่น ฝุ่นหิน</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ทำงานใกล้กับเครื่องจักรกล</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ทำงานที่เป็นอันตรายต่อสายตา เช่น การเชื่อมโลหะ การมีแสงจ้า แสงไม่เพียงพอ</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ทำงานในลักษณะยืน หรือนั่งในท่าเดิมนาน ๆ เช่น หอผ้า ทอเสื่อ</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ทำงานในบริเวณที่มีอากาศร้อนอบอ้าวหรืออากาศเย็นมากเกินปกติ</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ทำงานในที่สูง เช่น การปีนต้นไม้ ก่อสร้างที่ต้องใช้นั่งร้าน</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ขับรถขนส่งสินค้า</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">พักผ่อนไม่เพียงพอ</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ขาดความรู้ในการดูแลความปลอดภัย</label>
+                            </div>
+                        </div>
+
+
+                        <!--ตั้งตัวแปร-->
+                        <div class="col-md-6">
+                            <label for="help"><U>ปัญหาสุขภาพและการเจ็บป่วยในระยะ 6 เดือนที่ผ่านมา (ตอบได้มากกว่า 1 ข้อ)</U></label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ไม่มี</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ไม่ระบุ</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ไข้ ไอ เจ็บคอ</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">อุจจาระร่วง</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">กระเพาะอาหาร</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ปวดเมื่อยกล้ามเนื้อ</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">บาดเจ็บจากการทะเลาะวิวาท ทำร้ายร่างกาย</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ภาวะขาดสารอาหาร</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">พัฒนาการที่ล่าช้าในเด็กแรกเกิดถึง 5 ปี</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">โรคเรื้อรัง อาทิ ความดัน หัวใจ ถุงลมโป่งพอง เก๊าฑ์ มะเร็ง ไต</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">พิการ</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">โรคทางจิตเวช อาทิ ซึมเศร้า</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ชรา สูงวัย</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ภูมิแพ้</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">โรคกระดูก กระดูกพรุน กระดูกทับเส้น</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">อื่น ๆ อาทิ กล้ามเนื้ออ่อนแรง ข้อเข่าเสื่อม สมองฝ่อ สะเก็ดเงิน</label>
+                            </div><br>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="help"><U>ภาวะฉุกเฉินที่ต้องรักษา (ตอบได้มากกว่า 1 ข้อ)</U></label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ไม่มี</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ไม่ระบุ</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ไข้สูง ชัก</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">หอบ เหนื่อย</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">เหนื่อย อ่อนเพลีย ไม่มีแรง</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">หมดสติ</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">บาดเจ็บอุบัติเหตุอื่นจราจร</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">บาดเจ็บอุบัติเหตุอื่น ๆ เช่น หกล้ม ถูกของมีคมบาด ถูกของหนักตกทับหรือกระแทก</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">สุนัขกัด งูกัด สัตว์ทำร้าย</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ถุงลมโป่งพอง</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">โรงเรื้อรัง</label>
+                            </div>
+                            <a name="no1.4"></a>
+                        </div>
+
+                        <div class=" fs-4">1.4 ข้อมูลการเจ็บป่วยเรื้อรังหรือพิการ การดูแลรักษาเมื่อมีภาวะเจ็บป่วย ปัญหาและความต้องการในการดูแลรักษาสุขภาพ และ สภาวะการเจ็บป่วยในปัจจุบัน
+                            <hr>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="help"><U>การเจ็บป่วยเรื้อรังหรือพิการ (ตอบได้มากกว่า1ข้อ)</U></label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ไม่มี</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">เบาหวาน</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ความดันโลหิตสูง</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ปวดข้อ/ข้อเสื่อม</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">หัวใจ</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">มะเร็ง</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">หอบหืด</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ภูมิแพ้</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">เก๊าท์</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ไตวาย</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">อัมพาต</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">พิการทางกาย/เคลื่อนไหว</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">พิการการมองเห็น</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">พิการการได้ยิน</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">พิการจิตใจ อารมณ์</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">พิการสติปัญญา</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="help"><U>แนวทางการดูแลรักษาเมื่อมีภาวะเจ็บป่วยปัจจุบันหรือเรื่อรัง (ตอบได้มากกว่า1ข้อ)</U></label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ไม่มี</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">กินยา/ฉีดยา อย่างต่อเนื่อง</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ปรับเปลื่ยนพฤติกรรม เช่น ควบคุมอาหาร ออกกำลังกายสม่ำเสมอ ควบคุม ความเครียด</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">เฝ้าระวังและสังเกตอาการผิดปกติ</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ไปรับการตรวจร่างกายอย่างต่อเนื่อง</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">การดูแลทางด้านอาหาร เล่น การป้อนอาหาร การให้อาหารทางสายยาง</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">การเฝ้าระวังอาการผิดปกติของร่างกาย</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">การทำกายภาพ</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="help"><U>สถานที่ให้บริการหรือดูแลสุขภาพในกรณีเจ็บป่วยเล็กน้อย (ตอบได้มากกว่า1ข้อ)</U></label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ไม่มี</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ร้านขายยา</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ศูนย์สุขภาพชุมชน/รพ.ส่งเสริมสุขภาพตำบล</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">โรงพยาบาล</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">คลีนิคแพทย์</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">คลีนิคพยาบาล/สถานพยาบาล</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">บ้านหมอพื้นบ้านสมุนไพร</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">วัดที่มีบริการตรวจสุขภาพ</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="help"><U>ผู้ให้บริการดูแลเมื่อมีภาวะเจ็บป่วยปัจจุบันหรือเรื้อรัง(ตอบได้มากกว่า1ข้อ)</U></label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ดูแลตนเอง</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">สมาชิกในครอบครัว</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">อสม.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">อาสาสมัครอื่นๆ</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">กลุ่ม/ชมรมต่างๆ (เช่น ผู้ป่วย ผู้สูงอายุ)</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">พยาบาล</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">แพทย์</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">พระสงฆ์/ผู้นำศาสนา</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">หมอพื้นบ้าน/หมอสมุนไพร</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="help"><U>สิทธิ/สวัสดิการในการรักษา (ตอบได้มากกว่า1ข้อ)</U></label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ไม่มี</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">จ่ายเอง</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">สิทธิบัตรทอง (30บาท)</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ประกันสังคม</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">รับราชการ</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">รัฐวิสาหกิจ/องค์กรอิสระ</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ประกันสุขภาพเอกชน</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">กองทุน/สวัสดิการชุมชน</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">สวัสดิการที่รัฐจัดให้</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="help"><U>ปัญหาและความต้องการในการดูแลรักษาสุขภาพในปัจจุบัน (ตอบได้มากกว่า1ข้อ)</U></label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ไม่มี</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">กินยา/ฉีดยาไม่ต่อเนื่อง</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">การไปรับการรักษาหรือตรวจสุขภาพไม่ต่อเนื่อง</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">การปรับเปลี่ยนพฤติกรรมทำได้ยาก/มีข้อจำกัด เช่น การควบคุม/งดอาหาร,การกินเหล้า/สูบบุหรี่,การออกกำลังกาย,การควบความเครียด</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">เกิดภาวะแทรกซ้อน/มีอาการผิดปกติ เช่น ชาปลายมือปลายเท้า,แขนขาอ่อนแรง,หอบเหนื่อย,หายใจลำบาก,อาการบวม</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ความไม่สะดวกในการเดินทางไปรักษา</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ต้องอยู่ตามลำพังขาดผู้ดูแลช่วยเหลือ</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">สถานบริการแออัด</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ไม่ได้รับความสะดวกจากการใช้บริการ</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">รายได้ไม่พอต่อการรักษาในการเจ็บป่วย</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="help"><U>สภาวะการเจ็บป่วยในปัจจุบัน (ตอบได้มากกว่า1ข้อ)</U></label>
+                            <div class="form-check">
+                                <input class="form-check-input disble_group" data-group='group30' type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ไม่มี</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input group30" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ป่วย ไปไหนมาไหนได้</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input group30" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ป่วย อยู่กับบ้านไปไหนมาไหนไม่ได้</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input group30" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">ป่วย นอนกับเตียง</label>
+                            </div>
+                        </div>
+
+                </form>
+                </div>
+            </div>
+
+
+            <div class="container">
+                <div class="d-flex justify-content-center">
+                    <div class="d-flex justify-content-between">
+                        <a href="economy.html" class="next">ต่อไป&raquo;</a></div>
+                </div>
+            </div>
+
+    </main>
+
+
+
+    <script src="./assets/bootstrap-5.1.3-dist/js/bootstrap.min.js "></script>
+    <script src="./index.js "></script>
+
+
+</body>
+
+</html>
